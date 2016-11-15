@@ -1,0 +1,764 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	background: #ededed;
+}
+
+header {
+	position: fixed;
+	margin: 0; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0px;
+	text-decoration: none;
+	background: white;
+	border-bottom: solid 2px #cccccc;
+	z-index: 1;
+}
+
+h1 {
+	display: inline-block;
+	float: left;
+	padding: 20px;
+	background-color: #4aaaa5;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 125px;
+	font-size: 25px;
+
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 10px;
+	margin-right: 160px;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+
+}
+
+li {
+
+	float: left;
+	padding: 6px;
+	font-family: arial;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	color: #bbbbbb;
+}
+
+.active {
+	font-weight: bold;
+}
+
+#aboutMe {
+
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 120px;
+	margin-top: 90px;
+	margin-right: 10px;
+	margin-bottom: 90px;
+	width: 300px;
+	text-align: left;
+	background: #fff;
+	border: solid 1px #dddddd;
+	float: left;
+	align-content: center;
+}
+
+p {
+	font-family: Arial;
+	color: #777777;
+	line-height: 2;
+	font-size: 13px;
+	margin-top: 35px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	color: #4aaaa5;
+	margin-bottom: 15px;
+}
+
+
+
+#connect {
+	float: left;
+	width: 200px;
+	height: 155px;
+	padding: 5px;
+	padding-right: 20px;
+	margin: 40px;
+	margin-top: 90px;
+	margin-left: 25px;
+	background: #ffffff;
+	text-align: center;
+	border: solid 1px #dddddd;
+}
+
+#lineBreak {
+	outline: solid #dddddd 1px;
+
+}
+
+#lineBreak2 {
+	outline: solid #dddddd 1px;
+	margin-left: 20px;
+	margin-right: 4px;
+	margin-bottom: 30px;
+}
+
+#kiki {
+	margin-top: 2px;
+	margin-left: 3px;
+	vertical-align: text-top;
+	margin-bottom: 10px;
+
+}
+
+.socialMedia {
+	width: 50px;
+	height: 50px;
+}
+
+#stack {
+	width: 45px;
+	height: 45px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+}
+
+#iconPosition {
+	margin-left: 15px;
+}
+
+#portfolio {
+
+	
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 120px;
+	margin-top: 90px;
+	margin-right: 10px;
+	margin-bottom: 90px;
+	width: 250px;
+	background: #fff;
+	border: solid 1px #dddddd;
+	float: left;
+	align-content: center;
+}
+
+#connectp {
+	float: left;
+	width: 200px;
+	height: 155px;
+	padding: 5px;
+	padding-right: 20px;
+	margin: 40px;
+	margin-top: 90px;
+	margin-left: 25px;
+	background: #ffffff;
+	text-align: center;
+	border: solid 1px #dddddd;
+}
+
+
+#kikip {
+	margin-top: 25px;
+	margin-left: 3px;
+	vertical-align: text-top;
+	margin-bottom: 10px;
+
+}
+
+#cool {
+	font-size: 17px;
+	font-family: "Times New Roman";
+	color: #fff;
+	line-height: 0.3;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	background: #4aaaa5;
+	position: absolute;
+	top: 350px;
+	left: 152px;
+}
+
+
+#another1 {	
+	font-size: 17px;
+	font-family: "Times New Roman";
+	color: #fff;
+	line-height: 0.3;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	background: #4aaaa5;
+	position: absolute;
+	top: 585px;
+	left: 152px;
+}
+
+#andanother {	
+	font-size: 17px;
+	font-family: "Times New Roman";
+	color: #fff;
+	line-height: 0.3;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	background: #4aaaa5;
+	position: absolute;
+	top: 820px;
+	left: 152px;
+}
+
+#djkhaled {	
+	font-size: 17px;
+	font-family: "Times New Roman";
+	color: #fff;
+	line-height: 0.3;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	background: #4aaaa5;
+	position: absolute;
+	top: 1055px;
+	left: 152px;
+
+}
+
+#contact {
+
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	margin-left: 120px;
+	margin-top: 90px;
+	margin-right: 0px;
+	width: 330px;
+	text-align: left;
+	background: #fff;
+	border: solid 1px #dddddd;
+	float: left;
+	clear: both;
+}
+
+#contactForm {
+	padding-top: 20px;
+
+}
+
+label {
+	font-family: arial;
+	font-size: 13px;
+	color: #777777;
+}
+
+#message {
+	margin-top: 5px;
+}
+
+#email {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#name {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#submitButton {
+	background: #4aaaa5;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #ffffff;
+}
+/*.footer {
+	position: absolute; bottom:0;left:0;
+	margin: 0px; 
+	width: 100%;
+	padding: 0px;
+	background: #cccccc;
+	border-top: solid 4px #4aaaa5;
+}
+
+#copyright {
+	font-size: 10px;
+}*/
+
+
+
+
+@media screen and (max-width: 768px) {
+		
+		/*INDEX*/
+		 		
+		#kiki {
+			margin-top: 2px;
+			margin-left: 3px;
+			margin-right: 10px;
+			vertical-align: text-top;
+			margin-bottom: 10px;
+			float: left;
+		}
+
+		#aboutMe {
+
+			padding-top: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-left: 120px;
+			margin-top: 90px;
+			margin-right: 10px;
+			margin-bottom: 20px;
+			width: 525px;
+			text-align: left;
+			background: #fff;
+			border: solid 1px #dddddd;
+			float: left;
+		}
+		#connect {
+			float: left;
+			width: 525px;
+			height: 155px;
+			padding: 5px;
+			padding-right: 25px;
+			padding-left: 5px;
+			margin-top: 0px;
+			margin-left: 120px;
+			background: #ffffff;
+			text-align: left;
+			border: solid 1px #dddddd;
+		}
+
+		h3 {
+			margin-left: 20px;
+		}
+
+		nav {
+			margin: 0px auto;
+			width: 750px;
+		}
+
+		/*PORTFOLIO*/
+
+	
+		#portfolio {
+
+			
+			padding-top: 10px;
+			padding-left: 20px;
+			padding-right: 28px;
+			padding-bottom: 30px;
+			margin-left: 120px;
+			margin-top: 90px;
+			margin-right: 10px;
+			margin-bottom: 25px;
+			width: 475px;
+			background: #fff;
+			border: solid 1px #dddddd;
+			float: left;
+			align-content: center;
+		}
+
+		#kikip {
+			margin-top: 25px;
+			margin-left: 10px;
+			vertical-align: text-top;
+			margin-bottom: 0px;
+
+		}
+
+		#cool {
+			font-size: 17px;
+			font-family: "Times New Roman";
+			color: #fff;
+			line-height: 0.3;
+			text-align: center;
+			width: 200px;
+			height: 50px;
+			margin: 0px;
+			padding: 0px;
+			background: #4aaaa5;
+			position: absolute;
+			top: 350px;
+			left: 159px;
+		}
+
+
+		#another1 {	
+			font-size: 17px;
+			font-family: "Times New Roman";
+			color: #fff;
+			line-height: 0.3;
+			text-align: center;
+			width: 200px;
+			height: 50px;
+			margin: 0px;
+			padding: 0px;
+			background: #4aaaa5;
+			position: absolute;
+			top: 575px;
+			left: 159px;
+		}
+
+		#andanother {	
+			font-size: 17px;
+			font-family: "Times New Roman";
+			color: #fff;
+			line-height: 0.3;
+			text-align: center;
+			width: 200px;
+			height: 50px;
+			margin: 0px;
+			padding: 0px;
+			background: #4aaaa5;
+			position: absolute;
+			top: 350px;
+			left: 373px;
+		}
+
+		#djkhaled {	
+			font-size: 17px;
+			font-family: "Times New Roman";
+			color: #fff;
+			line-height: 0.3;
+			text-align: center;
+			width: 200px;
+			height: 50px;
+			margin: 0px;
+			padding: 0px;
+			background: #4aaaa5;
+			position: absolute;
+			top: 575px;
+			left: 373px;
+
+		}
+
+		#connectp {
+			float: left;
+			width: 475px;
+			height: 155px;
+			padding: 5px;
+			padding-right: 100px;
+			padding-left: 10px;
+			margin-top: 0px;
+			margin-left: 120px;
+			background: #ffffff;
+			text-align: left;
+			border: solid 1px #dddddd;
+		}
+
+		/*CONTACT*/
+		
+		#contact {
+
+			padding-top: 10px;
+			padding-left: 20px;
+			padding-right: 25px;
+			padding-bottom: 20px;
+			margin-left: 120px;
+			margin-top: 90px;
+			margin-right: 0px;
+			margin-bottom: 20px;
+			width: 525px;
+			text-align: left;
+			background: #fff;
+			border: solid 1px #dddddd;
+			float: left;
+			clear: both;
+
+		}
+
+		#message {
+			width: 480px;
+		}
+
+		#email {
+			width: 480px;
+		}
+
+		#name {
+			width: 480px;
+		}
+
+		#iconPosition {
+			margin-left: 18px;
+}
+
+
+	}
+		
+
+
+@media screen and (max-width: 640px) {
+
+		/*INDEX*/
+
+		.header-cont {
+
+			width: 100%;
+			position: fixed;
+			top: 0px;
+		}
+		header {
+			width: 960px;
+			margin: 0px auto;
+		}
+
+		h1 {
+			height: 100px;
+			width: 100%;
+			background-color: #4aaaa5;
+			color: #fff;
+			margin: 0px;
+			padding-top: 20px;
+			font-size: 25px;
+			text-align: center;
+			line-height: 55px;
+
+		}
+
+		li {
+		
+		padding-right: 17px;
+		padding-left: 17px;
+		margin-left: 0px;
+		margin-right: 0px;
+		font-family: arial;
+		text-decoration: none;
+		font-size: 13px;
+		
+		}
+
+		nav {
+
+			width: 600px;
+			margin: 0 auto;
+		}
+
+
+		 		
+		#kiki {
+			margin-top: 2px;
+			margin-left: 3px;
+			margin-right: 10px;
+			vertical-align: text-top;
+			margin-bottom: 10px;
+			width: 400px;
+			height: 300px;
+		}
+
+		#aboutMe {
+
+			padding-top: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-left: 20px;
+			margin-top: 175px;
+			margin-right: 10px;
+			margin-bottom: 20px;
+			width: 450px;
+			text-align: left;
+			background: #fff;
+			border: solid 1px #dddddd;
+			float: left;
+		}
+		#connect {
+			float: left;
+			width: 450px;
+			height: 155px;
+			padding: 5px;
+			padding-right: 20px;
+			padding-left: 10px;
+			margin-top: 0px;
+			margin-left: 20px;
+			background: #ffffff;
+			text-align: left;
+			border: solid 1px #dddddd;
+		}
+
+		#connect-text {
+			margin-left: 20px;
+		}
+
+		/*PORTFOLIO*/
+
+		#portfolio {
+
+			
+			padding-top: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-left: 20px;
+			margin-top: 175px;
+			margin-right: 10px;
+			margin-bottom: 20px;
+			width: 450px;
+			text-align: left;
+			background: #fff;
+			border: solid 1px #dddddd;
+			float: left;
+		}
+
+		#kikip {
+			margin-top: 30px;
+			margin-left: 3px;
+			margin-right: 10px;
+			vertical-align: text-top;
+			margin-bottom: 0px;
+			width: 400px;
+			height: 300px;
+		}
+		
+
+
+		#cool {
+			font-size: 17px;
+			font-family: "Times New Roman";
+			color: #fff;
+			line-height: 0.3;
+			text-align: center;
+			width: 400px;
+			height: 50px;
+			margin: 0px;
+			padding: 0px;
+			background: #4aaaa5;
+			position: absolute;
+			top: 535px;
+			left: 52px;
+		}
+
+
+		#another1 {	
+			font-size: 17px;
+			font-family: "Times New Roman";
+			color: #fff;
+			line-height: 0.3;
+			text-align: center;
+			width: 400px;
+			height: 50px;
+			margin: 0px;
+			padding: 0px;
+			background: #4aaaa5;
+			position: absolute;
+			top: 865px;
+			left: 52px;
+		}
+
+		#andanother {	
+			font-size: 17px;
+			font-family: "Times New Roman";
+			color: #fff;
+			line-height: 0.3;
+			text-align: center;
+			width: 400px;
+			height: 50px;
+			margin: 0px;
+			padding: 0px;
+			background: #4aaaa5;
+			position: absolute;
+			top: 1195px;
+			left: 52px;
+		}
+
+		#djkhaled {	
+			font-size: 17px;
+			font-family: "Times New Roman";
+			color: #fff;
+			line-height: 0.3;
+			text-align: center;
+			width: 400px;
+			height: 50px;
+			margin: 0px;
+			padding: 0px;
+			background: #4aaaa5;
+			position: absolute;
+			top: 1525px;
+			left: 52px;
+
+		}
+
+		#connectp {
+			float: left;
+			width: 450px;
+			height: 155px;
+			padding: 5px;
+			padding-right: 20px;
+			padding-left: 10px;
+			margin-top: 0px;
+			margin-left: 20px;
+			background: #ffffff;
+			text-align: left;
+			border: solid 1px #dddddd;
+		}
+
+		/*CONTACT*/
+
+		#contact {
+
+			padding-top: 10px;
+			padding-left: 20px;
+			padding-right: 25px;
+			padding-bottom: 20px;
+			margin-left: 20px;
+			margin-top: 175px;
+			margin-right: 0px;
+			margin-bottom: 20px;
+			width: 450px;
+			text-align: left;
+			background: #fff;
+			border: solid 1px #dddddd;
+			float: left;
+			clear: both;
+
+		}
+
+		#message {
+			width: 405px;
+		}
+
+		#email {
+			width: 405px;
+		}
+
+		#name {
+			width: 405px;
+		}
+
+	}
+
