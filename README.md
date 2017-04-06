@@ -1,1 +1,1 @@
-# Responsive-Portfolio
+Responsive portfolio built with html5 and css3.  The goal of making this portfolio was to create an exact design for each individual specified media screen max widths.  In other words, this portfolio responds as the screen is re-sized.
