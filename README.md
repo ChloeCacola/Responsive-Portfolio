@@ -3,4 +3,4 @@ Responsive portfolio built with html5 and css3.  The goal of making this portfol
 Instructions to view:
 Git Clone Responsive-Portfolio
 
-Launch individual .html files on a browser - drag around the screen to note responsiveness
+Launch individual .html files on a browser - resize screen to view responsiveness 
